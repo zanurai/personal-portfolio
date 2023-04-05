@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Montserrat&display=swap&family=Josefin+Sans&family=EB+Garamond&family=Dancing+Script');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: rgb(207, 207, 207);
+    /* width: 15vw;*/
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 65px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 17px;
+    padding: 30px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /*background-color: black;*/
+    width: 90vw;
+    /*color: white;*/
+}
+
+.infocontainer {
+    /*background-color: rgb(52, 218, 94);*/
+    height: 30vw;
+    width: 75vw;
+    margin: 110px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devPic img {
+    width: 400px;
+    margin-top: 50px;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello {
+    font-size: 3.5em;
+    font-family: 'EB Garamond', serif;
+}
+
+.hello span {
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(rgb(38, 238, 38), yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+.name {
+    font-size: 2.8em;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.about {
+    font-size: 2em;
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+}
+
+.moreabout {
+    font-size: 1.3em;
+    margin-top: 20px;
+    font-family: 'Alkatra', cursive;
+    color: red;
+}
+
+.buttons {
+
+    margin-top: 20px;
+}
+
+.buttons button {
+    height: 30px;
+    font-size: 19px;
+    padding: 0 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(73, 84, 245);
+    border: none;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: rgb(73, 84, 245);
+    background-color: rgb(184, 183, 183);
+}
+
+/*contact*/
+.contactForm {
+    padding-top: 300px;
+    padding: 0 34px;
+}
+
+.contactForm h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'EB Garamond', serif;
+}
+
+.contactForm form div {
+    padding: 10px 0;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.devInfo {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#emailHelp {
+    padding: 3px 0 0 0;
+    font-size: 13px;
+    color: midnightblue;
+    margin: 0 5px;
+
+}
+
+.form-control {
+    width: 400px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 5px 5px;
+    font-size: 17px;
+
+}
+
+label {
+    font-family: 'EB Garamond', serif;
+}
+
+button {
+    padding: 5px;
+    font-size: 19px;
+    border-radius: 10px;
+    background-color: rgb(59, 59, 236);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(107, 107, 238);
+    color: black;
+}
+
+/*blog*/
+.blockcontainer {
+    margin: 25px 40px;
+}
+
+.blockcontainer h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.blogItem {
+    margin-top: 15px;
+}
+
+.blogItem p {
+    margin-top: 10px;
+    font-family: 'Alkatra', cursive;
+}
+
+.blogItem h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.blogItem a {
+    text-decoration: none;
+    color: white;
+}
+
+/* MyIntro*/
+.MyIntro h1 {
+    margin-top: 70px;
+    margin-left: 50px;
+    font-family: 'EB Garamond', serif;
+    font-size: 40px;
+}
+
+.MyIntro p {
+    margin: 0px 50px;
+    font-size: 20px;
+    font-family: 'Alkatra', cursive;
+}
+
+.MySkill h1 {
+
+    margin-left: 50px;
+    font-family: 'EB Garamond', serif;
+    font-size: 35px;
+}
+
+.MySkill h4 {
+    margin: 5px 50px;
+    font-size: 20px;
+    font-family: 'Alkatra', cursive;
+}
+
+.MySkill p {
+    border: 1px solid red;
+    background-color: red;
+    height: 10px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.MySkill h6 {
+    border: 1px solid rgb(68, 243, 68);
+    background-color: rgb(68, 243, 68);
+    height: 10px;
+    width: 350px;
+    margin-left: 50px;
+}
+
+.MySkill h5 {
+    border: 1px solid rgb(21, 142, 223);
+    background-color: rgb(21, 142, 223);
+    height: 10px;
+    width: 250px;
+    margin-left: 50px;
+}
+
+.MySkill h2 {
+    border: 1px solid yellow;
+    background-color: yellow;
+    height: 10px;
+    width: 400px;
+    margin-left: 50px;
+}
+
+.email h3 {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+}
+
+.email p {
+    margin: 5px 50px;
+    font-size: 20px;
+    font-family: 'Alkatra', cursive;
+}
+
+.servicesContainer {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.servicesContainer h1 {
+    font-size: 40px;
+
+    font-family: 'EB Garamond', serif;
+}
+
+.services {
+    margin-top: 30px;
+}
+
+.services h2 {
+    font-size: 30px;
+    font-family: 'EB Garamond', serif;
+    margin-top: 25px;
+}
+
+.services p {
+    margin-top: 5px;
+    font-family: 'Alkatra', cursive;
+    font-size: 18px;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger img {
+    width: 20px;
+    cursor: pointer;
+    /*position: absolute;*/
+}
+
+.hamburger {
+    position: absolute;
+    left: 10px
+}
+
+.cross {
+    margin-left: 168px;
+    margin-top: 5px;
+}
+
+.ham {
+    margin-top: 5px;
+}
+
+
+@media(max-width:1000px) {
+    /** {
+        background-color: rgb(236, 139, 139);
+    }*/
+
+    .devPic {
+        display: none;
+    }
+
+    .devInfo {
+        font-size: 10px;
+    }
+
+    .sidebar {
+        /*transform: translate(-443px, 0px);*/
+        position: absolute;
+    }
+}
